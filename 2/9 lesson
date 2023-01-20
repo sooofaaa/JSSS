@@ -1,1 +1,6 @@
 
+var personAge = 28
+var message = personAge < 18
+  ? "Человек еще не совершеннолетний"
+  : Человек совершеннолетний
+console. log (message)
