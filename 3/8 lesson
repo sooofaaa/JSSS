@@ -1,1 +1,12 @@
 
+link.addEventListener('click', handleLinkClick)
+
+function handleLinkClick(event) {
+  event.prevent Default()
+
+var div = divs [0]
+
+div.style.display = div.style.display === 'none'
+? 'flex'
+: 'none'
+}
