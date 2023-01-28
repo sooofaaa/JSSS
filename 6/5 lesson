@@ -14,3 +14,13 @@ var createCounter = function(counterName) {
     }
   }
 }
+
+var counterA = createCounter('Counter A') 
+var counterB = createCounter('Counter B')
+
+counterA. increment() 
+counterA. increment() 
+counterA.increment()
+
+counterB.decrement() 
+counterB.decrement()
